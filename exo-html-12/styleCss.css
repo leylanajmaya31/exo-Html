@@ -1,0 +1,33 @@
+#container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column: 3/span 4;
+    grid-row: 1;  
+}
+#child{
+    grid-column: 2;
+   text-align: center;
+   
+}
+
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+   
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-column: 2;
+
+}
+
+#box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 3/span 3;
+    
+    
+}
+

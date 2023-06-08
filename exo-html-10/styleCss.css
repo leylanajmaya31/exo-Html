@@ -1,0 +1,19 @@
+.form1{
+    background-color: lightgray;
+    border-style: solid;
+    width: 400px;
+    height: 250px;
+    border-color: black;
+    text-align: center;
+    /* padding: 20px;
+    margin: 0%; */
+}
+.style {
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+input[type="checkbox"]{
+    margin-left: 20px;
+}
+
+

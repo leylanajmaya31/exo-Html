@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Infos personnelles</legend>
+        <div>
+    <form method="get" action="test">
+        <label for="name">Prénom:</label>
+        <input type="text" name="Prénomn" id="name" required minlength="2" maxlength="20" placeholder="Ex: Jacques">
+    </form>
+    <form method="get" action="test">
+        <label for="firstName">Nom:</label>
+        <input type="text" name="Prénomn" id="name" required minlength="2" maxlength="20" placeholder="Ex: Dubois">
+    </form>
+    <form method="get" action="test">
+        <label for="mail">E-mail:</label>
+        <input type="email" id="email" placeholder="Ex: monMail@FAI.com">
+    </form>
+    <form method="get" action="test">
+        <label for="number">Numéro:</label>
+        <input type="tel" id="phone" name="phone" placeholder="00.11.22.33.44">
+    </form>
+    <form method="get" action="test">
+        <label for="pass">Mot de passe:</label>
+        <input type="password" id="password" name="password" minlength="8" maxlength="30"  placeholder="Ex: P@ssWo4d">
+    </form>
+    <form method="get" action="test">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Ex:15">
+    </form>
+    <form method="post" action="test">
+        <label for="comment">Laissez un commentaire:</label>
+        <br>
+        <textarea id="commentaire" name="commentaire" row="10" cols="70"  placeholder="J'adore ce que vous faites !"></textarea>
+    </form>
+    <form method="post" action="test">
+        <label for="datecomment">Date de mon commentaire:</label>
+        <br>
+        <input type="date" name="datecomment">
+    </form>
+    <form method="post" action="test">
+        <label for="photo">Ma photo:</label>
+        <br>
+        <input type="file" id="photo" name="photo" accept="multiple">
+    </fieldset>
+    </form>
+
+    </div>
+        <fieldset>
+            <legend>Vous préférez</legend>
+            <div>
+    <form method="post" action="test">
+<label for="checkbox">Le HTML</label>
+<input type="checkbox" id="checkbox" name="checkbox" checked>
+<br>
+<label for="checkbox">Le CSS</label>
+<input type="checkbox" id="checkbox" name="checkbox">
+<br>
+<label for="checkbox">Le Javasript</label>
+<input type="checkbox" id="checkbox" name="checkbox">
+<br>
+<label for="checkbox">Ne rien faire</label>
+<input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+        </fieldset>
+    </form>
+    <fieldset>
+        <legend>Vous vous levez</legend>
+        <div>
+    <from method="post" action="test">
+        <label for="radio">Le matin</label>
+        <input type="radio" id="radio" name="radio" checked>
+        <br>
+        <label for="radio">Le midi</label>
+        <input type="radio" id="radio" name="radio">
+        <br>
+        <label for="radio">Le soir</label>
+        <input type="radio" id="radio" name="radio">
+        <br>
+        <label for="radio">En retard !</label>
+        <input type="radio" id="radio" name="radio">
+    </div>
+    </from>
+    <fieldset>
+        <legend>Fin du formulaire</legend>
+        <div>
+    <from method="post" action="test">
+        <label for="choix-select">Vous en avez assez?</label>
+        <select id="choix-select">
+            <option value="">Choisissez une option</option>
+            <optgroup label="Team Pas encore">
+                <option>J'en veux plus</option>
+                <option>C'est super !</option>
+            </optiongroup>
+            <optgroup label="Team Oula">
+                <option>J'en ai marre</option>
+                <option>Pitié !</option>
+            </optiongroup>
+        </select>
+        <br>
+        <input type="submit" value="Envoyer"/>
+        <input type="reset" value="Reset"/>
+    </div>
+    </from>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.box1 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom right,red,green,blue ); 
+    
+}
+
+.box2 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(-70deg, yellow 0%, purple 25%);
+   
+}
+
+p{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(white, rgba(0,0,0,0.5));
+   
+}
+.box3 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    background-image: radial-gradient( rgb(48, 48, 160), rgb(224, 126, 142));
+}
+
+.box4 {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    background-image: repeating-radial-gradient(10px, black, white);
+}
+
+
+.box4:hover{
+    background-image: repeating-radial-gradient(10px, white,black);
+}

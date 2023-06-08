@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: x-large;
+}
+
+h3 {
+    color: blue;
+    font-size: medium;
+}
+
+p {
+    background-color: gray;
+}
+
+strong {
+    color: greenyellow;
+    font-weight: normal;
+}
+
+em {
+    text-decoration: underline;
+    font-size: large;
+    color: orange;
+    font-style: normal;
+}
+
+
+#titreExo1 {
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
+
+#text3 {
+    background-color: pink;
+}

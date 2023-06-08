@@ -1,0 +1,18 @@
+h1 {
+    color:blue
+}
+h1:hover {
+    color: #33bb50;
+  }
+p:active {
+    background-color: rgb(210, 216, 210);
+  }
+  a:visited 
+  { color: lightgray; }
+  a:link{
+    color: orange;
+  }
+  img:hover { 
+    opacity: 0;
+  }
+  

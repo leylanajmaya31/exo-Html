@@ -1,0 +1,24 @@
+h1{
+    text-shadow: 10px -15px 7px purple;
+}
+
+
+#ombre1{
+box-shadow: 0px 0px 15px red ;
+}
+
+#ombre2{
+box-shadow: -10px 10px 5px greenyellow ;
+}
+body {
+    background-color: blueviolet;
+}
+#rectangle {
+    width : 500px;
+    height: 250px;
+    background: blue;
+    position: relative;
+    top:40px; left:40px;
+    box-shadow: 10px 10px 5px black, -10px -10px 10px whitesmoke ;
+}
+    

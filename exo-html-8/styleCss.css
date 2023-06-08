@@ -1,0 +1,41 @@
+table, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+
+    
+}
+caption {
+    color: blueviolet;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+th {
+background-color: lightskyblue;
+}
+table {
+    border: thick double darkorchid;
+}
+
+.tableau2 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+.caption2{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+tfoot{
+    background-color: aquamarine;
+}
+thead th{
+    background-color: blueviolet;
+}
+.tbody2{
+    background-color: rgb(235, 19, 181);
+}
